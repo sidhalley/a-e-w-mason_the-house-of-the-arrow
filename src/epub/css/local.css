@@ -1,2 +1,44 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Begin letters and telegrams */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.telegram{
+	font-variant: all-small-caps;
+}
+/* End letters and telegrams */
+
+/* Begin indentation for burned fragment */
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+
+p span.i4{
+	padding-left: 5em;
+	text-indent: -1em;
+}
+
+p span.i5{
+	padding-left: 6em;
+	text-indent: -1em;
+}
+
+p span.i6{
+	padding-left: 7em;
+	text-indent: -1em;
+}
+/* End indentation for burned fragment */
