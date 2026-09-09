@@ -43,6 +43,13 @@ p span.i6{
 }
 /* End indentation for burned fragment */
 
+/* Begin capitalization for burned fragment */
+#chapter-13 blockquote:first-of-type{
+	text-transform: uppercase;
+}
+/* End capitalization for burned fragment */
+
+
 /* Begin list with parentheses and with indents */
 ol {
 	counter-reset: item;
@@ -55,6 +62,7 @@ ol > li::before {
 	counter-increment: item;
 }
 /* End list with parentheses and with indents */
+
 /* Begin unordered list no bullets */
 ul {
 	list-style: none;
