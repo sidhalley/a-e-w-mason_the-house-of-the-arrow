@@ -42,3 +42,22 @@ p span.i6{
 	text-indent: -1em;
 }
 /* End indentation for burned fragment */
+
+/* Begin list with parentheses and with indents */
+ol {
+	counter-reset: item;
+	list-style: none;
+}
+
+ol > li::before {
+	float: left;
+	content: "   (" counter(item) ") ";
+	counter-increment: item;
+}
+/* End list with parentheses and with indents */
+/* Begin unordered list no bullets */
+ul {
+	list-style: none;
+}
+/* End unordered list no bullets */
+
