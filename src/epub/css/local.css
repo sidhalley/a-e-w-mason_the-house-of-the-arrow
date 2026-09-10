@@ -49,23 +49,21 @@ p span.i6{
 }
 /* End capitalization for burned fragment */
 
-
 /* Begin list with parentheses and with indents */
-ol {
+ol{
 	counter-reset: item;
 	list-style: none;
 }
 
-ol > li::before {
-	float: left;
+ol > li::before{
 	content: "   (" counter(item) ") ";
 	counter-increment: item;
+	float: left;
 }
 /* End list with parentheses and with indents */
 
 /* Begin unordered list no bullets */
-ul {
+ul{
 	list-style: none;
 }
 /* End unordered list no bullets */
-
