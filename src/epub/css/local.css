@@ -66,3 +66,9 @@ ul{
 	list-style: none;
 }
 /* End unordered list no bullets */
+
+/* Begin tables */
+table{
+	margin: 1em auto 1em auto;
+}
+/* End tables */
