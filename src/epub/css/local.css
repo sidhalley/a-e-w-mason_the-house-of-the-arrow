@@ -17,37 +17,36 @@ footer{
 /* End letters and telegrams */
 
 /* Begin indentation for burned fragment */
-p span.i2{
+/* 1st line larger font */
+#chapter-13 blockquote p:first-of-type{
 	padding-left: 3em;
-	text-indent: -1em;
+	font-size: larger;
 }
 
-p span.i3{
+#chapter-13 blockquote p:nth-of-type(2){
 	padding-left: 4em;
-	text-indent: -1em;
 }
 
-p span.i4{
+#chapter-13 blockquote p:nth-of-type(3){
 	padding-left: 5em;
-	text-indent: -1em;
 }
 
-p span.i5{
+#chapter-13 blockquote p:nth-of-type(4){
 	padding-left: 6em;
-	text-indent: -1em;
 }
 
-p span.i6{
+#chapter-13 blockquote p:nth-of-type(5),
+#chapter-13 blockquote p:nth-of-type(6){
 	padding-left: 7em;
-	text-indent: -1em;
 }
 /* End indentation for burned fragment */
 
-/* Begin capitalization for burned fragment */
+/* Begin capitalization and line spacing for burned fragment */
 #chapter-13 blockquote:first-of-type{
 	text-transform: uppercase;
+	line-height: 1.25;
 }
-/* End capitalization for burned fragment */
+/* End capitalization and line spacing for burned fragment */
 
 /* Begin list with parentheses and with indents */
 ol{
