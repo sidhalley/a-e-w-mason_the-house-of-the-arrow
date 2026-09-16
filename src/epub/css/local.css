@@ -13,25 +13,25 @@
 
 /* Begin indentation for burned fragment */
 /* 1st line larger font */
-#chapter-13 blockquote p:first-of-type{
+#chapter-13 blockquote:first-of-type p:first-of-type{
 	padding-left: 3em;
 	font-size: larger;
 }
 
-#chapter-13 blockquote p:nth-of-type(2){
+#chapter-13 blockquote:first-of-type p:nth-of-type(2){
 	padding-left: 4em;
 }
 
-#chapter-13 blockquote p:nth-of-type(3){
+#chapter-13 blockquote:first-of-type p:nth-of-type(3){
 	padding-left: 5em;
 }
 
-#chapter-13 blockquote p:nth-of-type(4){
+#chapter-13 blockquote:first-of-type p:nth-of-type(4){
 	padding-left: 6em;
 }
 
-#chapter-13 blockquote p:nth-of-type(5),
-#chapter-13 blockquote p:nth-of-type(6){
+#chapter-13 blockquote:first-of-type p:nth-of-type(5),
+#chapter-13 blockquote:first-of-type p:nth-of-type(6){
 	padding-left: 7em;
 }
 /* End indentation for burned fragment */
