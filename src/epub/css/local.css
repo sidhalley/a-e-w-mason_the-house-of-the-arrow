@@ -66,4 +66,8 @@ ul{
 table{
 	margin: 1em auto 1em auto;
 }
+
+td{
+  padding: 0.5em;
+}
 /* End tables */
