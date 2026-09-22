@@ -29,41 +29,53 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The House of the Arrow</dc:title>
 		<meta property="file-as" refines="#title">House of the Arrow, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
+		<dc:subject id="subject-2">Fiction</dc:subject>
+		<dc:subject id="subject-3">Inheritance and succession -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Murder--Investigation -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85037269</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">LONG_DESCRIPTION</meta>
+		<meta property="term" refines="#subject-2">sh85048050</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008104235</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008107761</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Inspector Hanaud</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
+		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta property="schema:abstract">A blackmailer knows he is falsely accusing the dead woman’s niece of murder by poison, but will evidence suggest otherwise?</meta>
+		<dc:description>
+			&lt;p&gt;After the apparently natural death of wealthy widow Madame Harlowe, a blackmailer accuses her niece of murder by poison, an accusation he knows to be false. The famous French detective &lt;a href="https://standardebooks.org/collections/inspector-hanaud"&gt;Inspector Hanaud&lt;/a&gt; is called in with Madame Harlowe’s death only an excuse to investigate a series of local anonymous blackmailing letters the local police have been unable to solve. Police exhume the body and there is no trace of poison, defeating the blackmailer. Yet there is a treatise on untraceable poison in the house library. Perhaps the accusation was really true. An incontrovertible alibi, and efforts to implicate others, shield the clever criminal from suspicion by all except Inspector Hanaud.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-e-w-mason"&gt;A. E. W. Mason&lt;/a&gt; had learned of this untraceable poison during his time as a Secret Service agent (&lt;time&gt;1915&lt;/time&gt;), later receiving a treatise with the poison arrow description echoed in the book.&lt;/p&gt;
+		</dc:description>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://www.gutenberg.org/ebooks/67514</dc:source>
+		<dc:source>https://archive.org/details/bwb_P9-DLG-687</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_of_the_Arrow_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/a-e-w-mason_the-house-of-the-arrow</meta>
 		<dc:creator id="author">A. E. W. Mason</dc:creator>
 		<meta property="file-as" refines="#author">Mason, A. E. W.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="schema:alternateName" refines="#author">Alfred Edward Woodley Mason</meta>
+		<link href="https://en.wikipedia.org/wiki/A._E._W._Mason" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50043662.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/A._E._W._Mason</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50043662</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>

@@ -14,8 +14,8 @@
 /* Begin indentation for burned fragment */
 /* 1st line larger font */
 #chapter-13 blockquote:first-of-type p:first-of-type{
-	padding-left: 3em;
 	font-size: larger;
+	padding-left: 3em;
 }
 
 #chapter-13 blockquote:first-of-type p:nth-of-type(2){
@@ -38,8 +38,8 @@
 
 /* Begin capitalization and line spacing for burned fragment */
 #chapter-13 blockquote:first-of-type{
-	text-transform: uppercase;
 	line-height: 1.25;
+	text-transform: uppercase;
 }
 /* End capitalization and line spacing for burned fragment */
 
@@ -69,6 +69,6 @@ table{
 }
 
 td{
-  padding: 0.5em;
+	padding: .5em;
 }
 /* End tables */
