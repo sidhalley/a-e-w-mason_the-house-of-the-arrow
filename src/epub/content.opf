@@ -7,13 +7,13 @@
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -31,8 +31,8 @@
 		<meta property="file-as" refines="#title">House of the Arrow, The</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-2">Fiction</dc:subject>
-		<dc:subject id="subject-3">Inheritance and succession -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Murder--Investigation -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Inheritance and succession--Fiction</dc:subject>
+		<dc:subject id="subject-4">Murder--Investigation--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037269</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
@@ -48,10 +48,10 @@
 		<meta property="group-position" refines="#collection-1">2</meta>
 		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="schema:abstract">A blackmailer knows he is falsely accusing the dead woman’s niece of murder by poison, but will evidence suggest otherwise?</meta>
+		<meta property="schema:abstract">A blackmailer knows he is falsely accusing the dead woman’s niece of murder by poison, but perhaps evidence suggests otherwise.</meta>
 		<dc:description>
 			&lt;p&gt;After the apparently natural death of wealthy widow Madame Harlowe, a blackmailer accuses her niece of murder by poison, an accusation he knows to be false. The famous French detective &lt;a href="https://standardebooks.org/collections/inspector-hanaud"&gt;Inspector Hanaud&lt;/a&gt; is called in with Madame Harlowe’s death only an excuse to investigate a series of local anonymous blackmailing letters the local police have been unable to solve. Police exhume the body and there is no trace of poison, defeating the blackmailer. Yet there is a treatise on untraceable poison in the house library. Perhaps the accusation was really true. An incontrovertible alibi, and efforts to implicate others, shield the clever criminal from suspicion by all except Inspector Hanaud.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-e-w-mason"&gt;A. E. W. Mason&lt;/a&gt; had learned of this untraceable poison during his time as a Secret Service agent (&lt;time&gt;1915&lt;/time&gt;), later receiving a treatise with the poison arrow description echoed in the book.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-e-w-mason"&gt;A. E. W. Mason&lt;/a&gt; had learned of this untraceable poison during his time as a Secret Service agent (1915), later receiving a treatise with the poison arrow description echoed in the book.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/67514</dc:source>
@@ -66,7 +66,7 @@
 		<link href="https://en.wikipedia.org/wiki/A._E._W._Mason" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50043662.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/A._E._W._Mason</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50043662</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50043662.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#artist">Anonymous</meta>
