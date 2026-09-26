@@ -11,37 +11,45 @@
 }
 /* End letters and telegrams */
 
-/* Begin indentation for burned fragment */
-/* 1st line larger font */
-#chapter-13 blockquote:first-of-type p:first-of-type{
-	font-size: larger;
-	padding-left: 3em;
+/* Begin burned fragment */
+#chapter-13 blockquote:first-of-type{
+	padding-left: 20%;
+}
+
+#chapter-13 blockquote:first-of-type > p{
+	font-variant: small-caps;
+	text-indent: 0;
+}
+
+/* 1st line larger font, spaced out letters */
+#chapter-13 blockquote:first-of-type b{
+	letter-spacing: .3em;
+	text-transform: uppercase;
 }
 
 #chapter-13 blockquote:first-of-type p:nth-of-type(2){
-	padding-left: 4em;
+	padding-left: 2em;
 }
 
 #chapter-13 blockquote:first-of-type p:nth-of-type(3){
-	padding-left: 5em;
+	padding-left: 4em;
 }
 
 #chapter-13 blockquote:first-of-type p:nth-of-type(4){
 	padding-left: 6em;
 }
 
-#chapter-13 blockquote:first-of-type p:nth-of-type(5),
-#chapter-13 blockquote:first-of-type p:nth-of-type(6){
-	padding-left: 7em;
+footer{
+	margin-top: 1em;
+	padding-left: 8em;
 }
-/* End indentation for burned fragment */
 
-/* Begin capitalization and line spacing for burned fragment */
-#chapter-13 blockquote:first-of-type{
-	line-height: 1.25;
-	text-transform: uppercase;
+footer p{
+	border-top-style: double;
+	display: inline-block;
 }
-/* End capitalization and line spacing for burned fragment */
+/* End burned fragment */
+
 
 /* Begin list with parentheses and with indents */
 ol{
