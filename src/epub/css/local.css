@@ -51,32 +51,61 @@ footer p{
 /* End burned fragment */
 
 
-/* Begin list with parentheses and with indents */
-ol{
+/* Begin lists */
+
+/* ch 15 */
+#chapter-15 ol{
 	counter-reset: item;
 	list-style: none;
 }
 
-ol > li::before{
-	content: "   (" counter(item) ") ";
+li{
 	counter-increment: item;
+}
+
+table ol li::before{
+	content: "   (" counter(item, lower-alpha) ") ";
+	font-style: italic;
 	float: left;
 }
-/* End list with parentheses and with indents */
+/* ch 18 */
+#chapter-18 ol{
+	counter-reset: item 4;
+	list-style: none;
+}
 
-/* Begin unordered list no bullets */
+ol li::before{
+	content: "   (" counter(item) ") ";
+	float: left;
+}
+
 ul{
 	list-style: none;
 	margin: 0;
 }
-/* End unordered list no bullets */
+/* End lists */
 
-/* Begin tables */
+/* Begin ch 15 table */
 table{
-	margin: 1em auto 1em auto;
+	margin: 1em auto;
 }
 
-td{
-	padding: .5em;
+th{
+	font-weight: normal;
+	font-style: italic;
+	font-variant: small-caps;
 }
-/* End tables */
+
+tr{
+	vertical-align: top;
+}
+
+td + td{
+	padding-left: 1em;
+}
+
+td,
+td > p:first-child{
+	text-indent: 1em;
+}
+/* End ch 15 table */
