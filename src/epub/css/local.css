@@ -39,13 +39,10 @@
 	padding-left: 6em;
 }
 
-footer{
-	margin-top: 1em;
-	padding-left: 8em;
-}
-
-footer p{
+#chapter-13 blockquote:first-of-type p:nth-of-type(5){
 	border-top-style: double;
+	margin-top: 1em;
+	margin-left: 8em;
 	display: inline-block;
 }
 /* End burned fragment */
@@ -92,7 +89,6 @@ table{
 
 th{
 	font-weight: normal;
-	font-style: italic;
 	font-variant: small-caps;
 }
 

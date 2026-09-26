@@ -57,7 +57,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/67514</dc:source>
 		<dc:source>https://archive.org/details/bwb_P9-DLG-687</dc:source>
 		<!-- Scans for missing pages (p. 304-306) -->
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=mdp.39015006963899</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/000245791</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_of_the_Arrow_(novel)</meta>
